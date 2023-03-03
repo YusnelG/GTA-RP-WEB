@@ -1,5 +1,6 @@
 import "../../styles/App.css";
 import { useState } from "react";
+import logo from "../../images/logo1.png"
 import { Link } from "react-router-dom";
 
 export const Header = () => {
