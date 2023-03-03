@@ -1,0 +1,646 @@
+h4,
+h5,
+h6,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.img {
+  width: 100%;
+}
+
+body a:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 100%;
+  background: #fff;
+}
+
+/*-- Header Part Starts Here --*/
+.header {
+  background: #000000;
+  padding: 2em 0;
+  position: relative;
+  padding: 13px 0 58px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+
+.navigation {
+  width: 65%;
+  float: right;
+}
+
+ul.navig {
+  padding: 0;
+  width: 65%;
+  float: left;
+  margin-top: 10px;
+}
+
+ul.navig li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.navig li a {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 700;
+}
+
+ul.navig li a:hover {
+  color: #ffaf40;
+}
+
+/* - Sidenav - */
+
+.sidenav {
+  height: 100%;
+  width: 165px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -31px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white !important;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sideO {
+  width: 250px;
+
+}
+
+/* - End Sidenav - */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffaf40;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 8px;
+  background-color: #000000;
+  min-width: 108px;
+  border: 2px solid #ffaf40;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(58, 58, 58);
+  border-radius: 8px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #79521d;}
+
+.banner {
+  background: url(../images/banner.jpg)no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 650px;
+}
+
+.text-banner {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  color: white;
+  right: 0;
+  top: 30%;
+  background-color: #00000085;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+@media(max-width:1440px) {
+  .banner {
+    min-height: 600px;
+  }
+}
+
+.banner-bot {
+  padding: 4em 0;
+  text-align: center;
+}
+
+.banner-bot h2 {
+  font-size: 4em;
+  font-weight: 700;
+  color: #000;
+  margin: 0em 0 0.5em 0;
+}
+
+.banner-bot p {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.8em;
+  margin: 0 0 0.5em;
+}
+
+.banner-bot p:nth-of-type(2) {
+  font-weight: 100;
+  font-size: 0.875em;
+  margin-bottom: 2em;
+}
+
+.banner-bot a {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+}
+
+nav a,
+ul.navig a {
+  position: relative;
+  display: inline-block;
+  margin: 0px 0px 10px;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus,
+ul.navig a:hover,
+ul.navig a:focus {
+  outline: none;
+}
+
+.links{
+	width: 35%;
+	float: right;
+  color: white;
+  margin-top: 4px;
+  text-align: center;
+}
+
+/*-- About --*/
+
+.about {
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+	padding: 100px;
+}
+
+.about-grid-1 {
+}
+
+.about-grid-1 h3 {
+	text-align: left;
+	font-size: 35px;
+	line-height: 40px;
+	color: #FFF;
+	margin: 30px 0 50px;
+}
+
+.about-grid-1 p {
+  line-height: 30px;
+	font-size: 16px;
+	color: #777;
+}
+
+/*-- //About --*/
+/*-- Footer part Starts Here --*/
+.footer {
+  padding: 2em 0;
+  text-align: center;
+  border-top: 10px solid #3c3a3e;
+}
+
+.footer p {
+  font-size: 0.85em;
+  color: #3c3a3e;
+  font-weight: 100;
+}
+
+.footer p a {
+  color: #ffaf40;
+}
+
+.footer p a:hover {
+  color: #4fbfa8;
+}
+
+/*-- Footer part Ends Here --*/
+
+/*-- Plataforms --*/
+
+.about-2 {
+  background-color: #000;
+  padding: 8px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid white;
+  font-size: 29px;
+  text-transform: uppercase;
+}
+
+.plataforms {
+  border: 2px solid white;
+  background-color: #000;
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.PC {
+  background: url(../images/platform-1.jpg)no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 180px;
+  width: 419px;
+}
+
+.Android {
+  background: url(../images/platform-2.jpg)no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 180px;
+  width: 419px;
+}
+
+.prox {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 180px;
+  width: 419px;
+}
+
+.text-platform {
+  text-align: center;
+  color: white;
+  font-size: 43px;
+  background-color: #00000057;
+  margin: 0 auto;
+  padding: 69px;
+}
+
+/* -- Galleria -- */
+
+.gallery {
+  background-color: #000;
+  padding: 8px;
+}
+
+.gallery-img {
+  background-color: #000;
+  display: flex;
+  border-bottom: 1px solid white;
+}
+
+.gallery-1 {
+  background: url(../images/platform-2.jpg)no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 180px;
+  width: 310px;
+}
+
+.gallery-2 {
+  background: url(../images/platform-2.jpg)no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 180px;
+  width: 310px;
+}
+
+.gallery-3 {
+  background: url(../images/platform-2.jpg)no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 180px;
+  width: 310px;
+}
+
+.gallery-4 {
+  background: url(../images/platform-2.jpg)no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 180px;
+  width: 310px;
+}
+
+
+
+/*-- Media Queries Starts Here --*/
+
+@media(max-width:1920px){
+  .links {
+    width: 93%;
+    margin-top: -30px;
+  }
+
+  .navigation {
+    width: 60%;
+  }
+
+  .PC {
+    min-height: 225px;
+    width: 635px;
+  }
+
+  .prox {
+    min-height: 225px;
+    width: 635px;
+  }
+
+  .Android {
+    min-height: 225px;
+    width: 635px;
+  }
+
+  .text-platform {
+    padding: 90px;
+  }
+}
+
+@media(max-width:1420px){
+  .links {
+    width: 49%;
+    margin-top: -38px;
+  }
+
+  .navigation {
+    width: 65%;
+  }
+}
+
+@media(max-width:1024px) {
+  .logo a img {
+    width: 65%;
+  }
+
+  .navigation {
+    width: 70%;
+  }
+  
+  .header {
+    padding: 2em 0 3em;
+  }
+  
+  ul.navig li a {
+    font-size: 0.875em;
+  }
+
+  ul.navig {
+    margin-top: 0px;
+  }
+
+  .banner {
+    min-height: 369px;
+  }
+}
+
+@media(max-width:768px) {
+  span.menu {
+    width: 50px;
+    height: 32px;
+    background: url(../images/nav.png)no-repeat;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    margin-top: -22px;
+  }
+
+  .navigation {
+    width: 100%;
+    display: none;
+    text-align: center;
+    background: #fff;
+    padding: 0.5em 0;
+    margin-top: 10px;
+  }
+
+  ul.navig {
+    float: none;
+    width: 100%;
+  }
+
+  ul.navig li {
+    display: block;
+  }
+
+  ul.navig li a {
+    color: #000;
+    display: block;
+  }
+
+  .header {
+    padding: 2em 0 1em;
+  }
+
+  .banner {
+    min-height: 341px;
+  }
+
+  .banner-bot h2 {
+    font-size: 3em;
+  }
+
+  .banner-bot {
+    padding: 2em 0;
+  }
+
+  .banner-bot p {
+    font-size: 0.875em;
+  }
+
+  .banner-bot a {
+    font-size: 1.5em;
+    padding: 4px 0;
+  }
+
+  .side-bar {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+}
+
+
+@media(max-width:480px) {
+  .logo a img {
+    width: 37%;
+  }
+
+  .header {
+    padding: 1.5em 0;
+  }
+
+  .banner {
+    min-height: 224px;
+  }
+
+  .banner-bot h2 {
+    font-size: 2em;
+  }
+
+  .banner-bot p {
+    font-size: 0.85em;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .banner-bot a {
+    font-size: 1.2em;
+    padding: 4px 0;
+  }
+
+  .banner-bot p:nth-of-type(2) {
+    font-size: 0.85em;
+    margin-bottom: 0.5em;
+  }
+  .logo {
+    width: 70%;
+  }
+
+}
+
+@media(max-width:320px) {
+  .logo a img {
+    width: 44%;
+  }
+
+  .logo {
+    left: 6%;
+  }
+
+  .banner {
+    min-height: 160px;
+  }
+
+  .banner-bot h2 {
+    font-size: 1.5em;
+  }
+}
+
+/*-- Media Queries Ends Here --*/
